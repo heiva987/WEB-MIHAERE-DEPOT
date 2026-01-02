@@ -1,0 +1,159 @@
+═══════════════════════════════════════════════════════════════
+  🛒 MIHAERE SHOP - Instructions Rapides
+═══════════════════════════════════════════════════════════════
+
+📍 VOTRE REPOSITORY GITHUB
+https://github.com/heiva987/WEB-MIHAERE-DEPOT
+
+📍 PULL REQUEST ACTIVE
+https://github.com/heiva987/WEB-MIHAERE-DEPOT/pull/1
+
+═══════════════════════════════════════════════════════════════
+  🚀 MÉTHODE 1 : GitHub Codespaces (LE PLUS SIMPLE)
+═══════════════════════════════════════════════════════════════
+
+✅ Modifiez votre site directement dans le navigateur !
+
+ÉTAPES :
+1. Allez sur : https://github.com/heiva987/WEB-MIHAERE-DEPOT
+2. Cliquez sur le bouton vert "< > Code"
+3. Onglet "Codespaces"
+4. "Create codespace on genspark_ai_developer"
+5. Dans le terminal : ./START.sh
+6. Cliquez "Open in Browser"
+
+📖 LISEZ : CODESPACES_GUIDE.md (dans le projet)
+
+═══════════════════════════════════════════════════════════════
+  💻 MÉTHODE 2 : Sur Votre Ordinateur
+═══════════════════════════════════════════════════════════════
+
+TERMINAL/CMD :
+git clone https://github.com/heiva987/WEB-MIHAERE-DEPOT.git
+cd WEB-MIHAERE-DEPOT
+git checkout genspark_ai_developer
+python3 -m http.server 8000
+
+NAVIGATEUR :
+http://localhost:8000
+
+═══════════════════════════════════════════════════════════════
+  📝 GUIDES DE MODIFICATION
+═══════════════════════════════════════════════════════════════
+
+📘 CODESPACES_GUIDE.md
+   → Démarrage avec Codespaces, problèmes courants
+
+📗 GUIDE_MODIFICATION.md
+   → Guide COMPLET : couleurs, produits, contenu
+   → Exemples de code prêts à copier-coller
+   → Solutions aux problèmes
+
+📙 README.md
+   → Documentation technique complète
+
+═══════════════════════════════════════════════════════════════
+  🎯 MODIFICATIONS RAPIDES
+═══════════════════════════════════════════════════════════════
+
+🎨 CHANGER LES COULEURS
+Fichier : css/style.css (ligne 9)
+--primary-color: #6366f1;  ← Changez cette valeur
+
+🛍️ AJOUTER UN PRODUIT
+Fichier : js/products.js (à la fin du tableau)
+Copiez-collez un objet produit et modifiez les valeurs
+
+📝 CHANGER LE NOM
+Fichier : index.html
+Ligne 24 : <h1>VOTRE NOM</h1>
+
+💰 MODIFIER LES PRIX
+Fichier : js/products.js
+Cherchez "price:" et modifiez la valeur
+
+═══════════════════════════════════════════════════════════════
+  📁 FICHIERS PRINCIPAUX
+═══════════════════════════════════════════════════════════════
+
+index.html       → Structure HTML du site
+css/style.css    → Tous les styles et couleurs
+js/products.js   → Base de données des 16 produits
+js/cart.js       → Logique du panier d'achat
+js/main.js       → Interactions et événements
+
+═══════════════════════════════════════════════════════════════
+  💾 SAUVEGARDER VOS MODIFICATIONS
+═══════════════════════════════════════════════════════════════
+
+Dans le terminal :
+
+git add .
+git commit -m "Description de vos modifications"
+git push
+
+═══════════════════════════════════════════════════════════════
+  🆘 AIDE RAPIDE
+═══════════════════════════════════════════════════════════════
+
+❓ Le site ne s'affiche pas ?
+   → Vérifiez que le serveur tourne
+   → Regardez l'onglet PORTS (dans Codespaces)
+
+❓ Mes changements ne s'affichent pas ?
+   → Sauvegardez : Ctrl+S (Cmd+S sur Mac)
+   → Rechargez : Ctrl+R
+   → Videz le cache : Ctrl+Shift+R
+
+❓ Erreur JavaScript ?
+   → Appuyez sur F12
+   → Regardez la Console (messages en rouge)
+   → Vérifiez virgules, guillemets, accolades
+
+❓ Comment annuler une modification ?
+   → git checkout -- nom_du_fichier
+   → git reset --hard (annule TOUT)
+
+═══════════════════════════════════════════════════════════════
+  ⚡ RACCOURCIS CLAVIER (VS Code / Codespaces)
+═══════════════════════════════════════════════════════════════
+
+Ctrl+S / Cmd+S          → Sauvegarder
+Ctrl+F / Cmd+F          → Rechercher
+Ctrl+H / Cmd+H          → Remplacer
+Ctrl+/ / Cmd+/          → Commenter/Décommenter
+Alt+↑↓                  → Déplacer une ligne
+Shift+Alt+↓             → Dupliquer une ligne
+
+═══════════════════════════════════════════════════════════════
+  🌐 RESSOURCES UTILES
+═══════════════════════════════════════════════════════════════
+
+🎨 Palettes de couleurs : https://coolors.co/
+📸 Images gratuites     : https://unsplash.com/
+🎭 Emojis              : https://emojipedia.org/
+🖼️  Icônes             : https://fontawesome.com/
+
+═══════════════════════════════════════════════════════════════
+  ✅ CHECKLIST DE DÉMARRAGE
+═══════════════════════════════════════════════════════════════
+
+□ J'ai créé mon Codespace (ou cloné en local)
+□ Le site s'affiche dans mon navigateur
+□ J'ai lu un des guides de modification
+□ J'ai testé de changer une couleur
+□ Je sais comment sauvegarder (git add/commit/push)
+
+═══════════════════════════════════════════════════════════════
+  🎉 VOUS ÊTES PRÊT !
+═══════════════════════════════════════════════════════════════
+
+Commencez par des petites modifications :
+1. Changez une couleur
+2. Modifiez le nom de la boutique
+3. Ajoutez un produit
+4. Testez !
+
+Bon développement ! 🚀
+
+═══════════════════════════════════════════════════════════════
