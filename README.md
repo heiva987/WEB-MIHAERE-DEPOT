@@ -43,21 +43,45 @@ Un site e-commerce moderne et responsive développé avec HTML, CSS et JavaScrip
 
 ## 🚀 Démarrage Rapide
 
-### Prérequis
+### ⚡ Option 1 : GitHub Codespaces (Recommandé - Le Plus Simple)
+
+**Modifiez directement dans votre navigateur, sans rien installer !**
+
+1. Cliquez sur le bouton **`< > Code`** (en vert) en haut de cette page
+2. Allez dans l'onglet **`Codespaces`**
+3. Cliquez sur **`Create codespace on genspark_ai_developer`**
+4. Une fois dans VS Code, tapez dans le terminal :
+   ```bash
+   ./START.sh
+   ```
+5. Cliquez sur **"Open in Browser"** quand la notification apparaît
+
+**📚 Guides détaillés disponibles :**
+- 📘 **[CODESPACES_GUIDE.md](./CODESPACES_GUIDE.md)** - Démarrage avec Codespaces
+- 📗 **[GUIDE_MODIFICATION.md](./GUIDE_MODIFICATION.md)** - Comment modifier le site
+
+---
+
+### 💻 Option 2 : Installation Locale
+
+#### Prérequis
 - Un navigateur web moderne (Chrome, Firefox, Safari, Edge)
 - Python 3 (pour le serveur de développement) ou tout autre serveur HTTP
 
-### Installation
+#### Installation
 
 1. Cloner le repository
 ```bash
-git clone [URL_DU_REPO]
-cd webapp
+git clone https://github.com/heiva987/WEB-MIHAERE-DEPOT.git
+cd WEB-MIHAERE-DEPOT
+git checkout genspark_ai_developer
 ```
 
 2. Lancer le serveur local
 ```bash
 python3 -m http.server 8000
+# Ou utilisez le script
+./START.sh
 ```
 
 3. Ouvrir dans le navigateur
@@ -102,6 +126,8 @@ webapp/
 
 ## 🎨 Personnalisation
 
+> **📖 Pour un guide complet de personnalisation, consultez [GUIDE_MODIFICATION.md](./GUIDE_MODIFICATION.md)**
+
 ### Couleurs
 Les couleurs principales sont définies dans `css/style.css` :
 ```css
@@ -128,6 +154,15 @@ Ajoutez ou modifiez des produits dans `js/products.js` :
     badge: "Nouveau"
 }
 ```
+
+### Modification Facile
+Pour des instructions détaillées sur :
+- Comment changer les couleurs
+- Comment ajouter/modifier des produits
+- Comment personnaliser le contenu
+- Et bien plus encore...
+
+**👉 Lisez le [GUIDE_MODIFICATION.md](./GUIDE_MODIFICATION.md)**
 
 ## 🔧 Technologies Utilisées
 
